@@ -52,6 +52,6 @@ def get_all_repository_info(github_username):
 [
                                 InlineKeyboardButton(
                                     "𝖩ᴏɪɴ 𝖳ᴇᴀᴍ crazy 𝖡ᴏᴛs",
-                                    url="https://t.me/All_super_music"
+                                    url="https://t.me/chamber_of_heart1"
                                 )
 ]

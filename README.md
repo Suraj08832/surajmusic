@@ -25,7 +25,7 @@
 
 <p>
 <a href="https://t.me/MAHI_X_MUSIC_BOT"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
-<a href="https://t.me/All_super_music -Gen"><img src="https://img.shields.io/badge/PURVI%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+<a href="https://t.me/chamber_of_heart1"><img src="https://img.shields.io/badge/PURVI%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
 
 
 <h3 align="center">
