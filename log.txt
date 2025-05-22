@@ -1,0 +1,3 @@
+[22-May-25 23:08:12 - INFO] - crushi.core.dir - Directories Updated.
+[22-May-25 23:08:12 - INFO] - crushi.core.git - Git Client Found [VPS DEPLOYER]
+[22-May-25 23:08:12 - INFO] - crushi.core.bot - Starting Bot...
