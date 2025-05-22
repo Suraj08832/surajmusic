@@ -78,3 +78,24 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 ━━━━━━━━━━━━━━━━━━━━
 ### Contact :
 <a href="https://t.me/ANURAGMOD"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 」─
+</h3>
+
+1. First, fork this repository
+2. Go to [Railway](https://railway.app/)
+3. Create a new project
+4. Choose "Deploy from GitHub repo"
+5. Select your forked repository
+6. Add the following environment variables:
+   - `API_ID`: Your Telegram API ID
+   - `API_HASH`: Your Telegram API Hash
+   - `BOT_TOKEN`: Your Bot Token
+   - `SESSION_STRING`: Your Pyrogram Session String
+   - `MUSIC_BOT_NAME`: Your Music Bot Name
+   - `ASSISTANT_NAME`: Your Assistant Name
+   - `OWNER_ID`: Your Telegram User ID
+7. Click "Deploy Now"
+8. Wait for the deployment to complete
+9. Your bot will be live at the URL provided by Railway
