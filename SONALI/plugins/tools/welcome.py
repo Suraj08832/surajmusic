@@ -89,18 +89,21 @@ async def greet_new_member(_, member: ChatMemberUpdated):
         return  # Exit if no user found in the update
     
     try:
+        # Get the group's invite link
+        invite_link = await app.create_chat_invite_link(chat_id)
+        invite_url = invite_link.invite_link
+
         # Welcome message
         welcome_message = f"**👋 {user.mention}, Wᴇʟᴄᴏᴍᴇ Tᴏ {member.chat.title}!\n\n" \
                           "• 𝐖ᴇʟᴄᴏᴍᴇ 𝐓ᴏ 𝐎ᴜʀ 𝐆ʀᴏᴜᴘ!\n\n" \
                           "• Pʟᴇᴀsᴇ Aʟᴡᴀʏs Fᴏʟʟᴏᴡ Tʜᴇ Gʀᴏᴜᴘ Rᴜʟᴇs!\n" \
-                          "• @chamber_of_heart1!\n" \
                           "────────────────────\n" \
                           f"ᴛ ᴏ ᴛ ᴀ ʟ ᴍ ᴇ ᴍ ʙ ᴇ ʀ: {count}\n" \
                           "────────────────────**"
         
-        # Creating an inline button to "Join 👋" with the link
+        # Creating an inline button to "Join 👋" with the dynamic link
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Join 👋", url="https://t.me/chamber_of_heart1")]]
+            [[InlineKeyboardButton("Join 👋", url=invite_url)]]
         )
 
         # Send the welcome message with the inline button
