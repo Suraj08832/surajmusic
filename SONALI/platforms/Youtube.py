@@ -125,7 +125,7 @@ class YouTubeAPI:
             "--cookies", cookies_file,
             "-g",
             "-f",
-            "best[height<=?720][width<=?1280]",
+            "bestvideo[height<=?720]+bestaudio/best[height<=?720]",
             f"{link}",
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE,
@@ -263,7 +263,7 @@ class YouTubeAPI:
 
         def video_dl():
             ydl_optssx = {
-                "format": "(bestvideo[height<=?720][width<=?1280][ext=mp4])+(bestaudio[ext=m4a])",
+                "format": "bestvideo[height<=?720]+bestaudio/best[height<=?720]",
                 "outtmpl": "downloads/%(id)s.%(ext)s",
                 "geo_bypass": True,
                 "nocheckcertificate": True,
