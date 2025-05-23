@@ -89,7 +89,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 <p align="center">
-  <img src="https://files.catbox.moe/q7h4nt.jpg">
+  <img src="https://files.catbox.moe/xswtiz.jpg">
 </p>
 
 
