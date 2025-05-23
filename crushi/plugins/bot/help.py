@@ -1,5 +1,5 @@
 from typing import Union, Optional, Protocol
-from pyrogram import filters, types, enums
+from pyrogram import filters, types, enums, Client
 from pyrogram.types import InlineKeyboardMarkup, Message, InlineKeyboardButton, CallbackQuery
 from crushi import app
 from crushi.utils import help_pannel
@@ -26,7 +26,7 @@ async def safe_edit_message(message: EditableMessage, text: str, reply_markup: O
 @app.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
 @app.on_callback_query(filters.regex("settings_back_helper") & ~BANNED_USERS)
 async def helper_private(
-    client: types.Client, update: Union[types.Message, types.CallbackQuery]
+    client: Client, update: Union[types.Message, types.CallbackQuery]
 ):
     is_callback = isinstance(update, types.CallbackQuery)
     if is_callback:

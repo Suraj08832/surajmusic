@@ -1,9 +1,14 @@
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus
+from pyrogram.errors import FloodWait
+import asyncio
+import logging
 
 import config
 
 from ..logging import LOGGER
+
+logger = logging.getLogger(__name__)
 
 
 class RAUSHAN(Client):
@@ -19,7 +24,15 @@ class RAUSHAN(Client):
         )
 
     async def start(self):
-        await super().start()
+        try:
+            await super().start()
+        except FloodWait as e:
+            logger.warning(f"FloodWait: Sleeping for {e.value} seconds")
+            await asyncio.sleep(e.value)
+            await super().start()
+        except Exception as e:
+            logger.error(f"Error starting bot: {e}")
+            raise
         self.id = self.me.id
         self.name = self.me.first_name + " " + (self.me.last_name or "")
         self.username = self.me.username
