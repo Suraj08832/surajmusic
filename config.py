@@ -16,6 +16,10 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your Genius API token from https://genius.com/api-clients
 GENIUS_API_TOKEN = getenv("GENIUS_API_TOKEN", None)
 
+# YouTube API Configuration
+API_URL = "https://api.vevioz.com/api/button/mp3"
+API_KEY = "vevioz_api_key_here"  # Replace with your actual API key
+
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","ANURAGMOD")
 # --------------------------------------------------------
