@@ -25,7 +25,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7745362209"))
+OWNER_ID = int(getenv("OWNER_ID", "7669858597"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -45,8 +45,8 @@ GIT_TOKEN = getenv(
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", '30DxNexGenBots938b57') # youtube song api ke
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/All_super_music")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+o8Q98BM17W42NjRl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL","https://t.me/chamber_of_heart1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+AzKGhJreNmhiZTll")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
