@@ -1,10 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from crushi import app
-from config import BOT_USERNAME
+from config import BOT_USERNAME, MUSIC_BOT_NAME
 from crushi.utils.errors import capture_err
 import httpx 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+
+# Use MUSIC_BOT_NAME as fallback if BOT_USERNAME is not set
+BOT_NAME = BOT_USERNAME or MUSIC_BOT_NAME or "crushi_bot"
 
 start_txt = """
 ✰ 𝗪ᴇʟᴄᴏᴍᴇ ᴛᴏ 𝗧ᴇᴀᴍ ANURAG 𝗥ᴇᴘᴏs ✰
@@ -19,14 +22,11 @@ start_txt = """
  
 """
 
-
-
-
 @app.on_message(filters.command("repo"))
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("𝗔ᴅᴅ ᴍᴇ 𝗠ᴀʙʏ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("𝗔ᴅᴅ ᴍᴇ 𝗠ᴀʙʏ", url=f"https://t.me/{BOT_NAME}?startgroup=true")
         ],
         [
           InlineKeyboardButton("𝗛ᴇʟᴘ", url="http://t.me/ANURAGMOD"),
