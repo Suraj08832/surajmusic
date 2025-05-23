@@ -6,11 +6,11 @@ import string
 import lyricsgenius as lg
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
-from config import app, GENIUS_API_TOKEN, lyrical
+from config import app, lyrical
 
-# Initialize Genius API
+# Initialize Genius API with direct token
 genius = lg.Genius(
-    GENIUS_API_TOKEN,
+    "fcXGwudRZTE8zdMOYKNMoRGIWfBjca_4s5wF5keHeCTd68yURmceO4MGhAbyx-qp",
     skip_non_songs=True,
     excluded_terms=["(Remix)", "(Live)"],
     remove_section_headers=True,
