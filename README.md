@@ -1,3 +1,80 @@
+# 🎵 CrushiMusic Bot
+
+A powerful Telegram Music Bot with advanced features and high-quality audio streaming.
+
+## 🚀 Features
+
+- 🎧 High-quality music streaming
+- 📱 User-friendly interface
+- 🎯 Multiple streaming modes
+- 🎨 Beautiful UI with video previews
+- 🔍 Advanced search capabilities
+- 📋 Playlist support
+- 🎮 Interactive controls
+- 🌐 Multi-language support
+
+## 🎥 Preview
+
+[![CrushiMusic Bot](https://files.catbox.moe/m5g5kj.mp4)](https://files.catbox.moe/m5g5kj.mp4)
+
+## 🛠️ Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Suraj08832/surajmusic.git
+cd surajmusic
+```
+
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+3. Configure environment variables:
+- Copy `sample.env` to `.env`
+- Fill in your credentials
+
+4. Run the bot:
+```bash
+python -m crushi
+```
+
+## 📝 Commands
+
+- `/start` - Start the bot
+- `/help` - Show help menu
+- `/play` - Play music
+- `/skip` - Skip current track
+- `/pause` - Pause music
+- `/resume` - Resume music
+- `/stop` - Stop music
+- `/queue` - Show queue
+- `/settings` - Bot settings
+
+## 🔧 Configuration
+
+Required environment variables:
+- `API_ID` - Telegram API ID
+- `API_HASH` - Telegram API Hash
+- `BOT_TOKEN` - Bot token from @BotFather
+- `MONGO_DB_URI` - MongoDB connection string
+- `LOG_GROUP_ID` - Log group ID
+
+## 📞 Support
+
+Join our support group for help and updates:
+- [Support Group](https://t.me/All_super_music)
+- [Support Channel](https://t.me/+o8Q98BM17W42NjRl)
+
+## ⭐ Credits
+
+- [Pyrogram](https://github.com/pyrogram/pyrogram)
+- [Pytgcalls](https://github.com/pytgcalls/pytgcalls)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 <h2 align="center">
     ─「 𝐏ᴜʀᴠɪ 𝘅 𝐌ᴜsɪᴄ 」─
 
