@@ -63,8 +63,8 @@ Required environment variables:
 ## 📞 Support
 
 Join our support group for help and updates:
-- [Support Group](https://t.me/All_super_music)
-- [Support Channel](https://t.me/+o8Q98BM17W42NjRl)
+- [Support Group](https://t.me/chamber_of_heart1)
+- [Support Channel](https://t.me/+AzKGhJreNmhiZTll)
 
 ## ⭐ Credits
 
@@ -76,7 +76,7 @@ Join our support group for help and updates:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 <h2 align="center">
-    ─「 𝐏ᴜʀᴠɪ 𝘅 𝐌ᴜsɪᴄ 」─
+    ─「 ‌𝗭𝗲‌𝗳𝗿𝗼‌𝗻 𝘅 𝐌ᴜsɪᴄ 」─
 </h2>
 
 ## 👑 Owner
@@ -84,7 +84,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Name:** 𐏓 𝅥‌꯭𝆬ᷟ𝐣‌‌‌➥‌𝗭𝗲‌𝗳𝗿𝗼‌𝗻 ‌🔥❰⎯꯭ ꭗ‌‌ 🍂  
 **Username:** [@crush_hu_tera](https://t.me/crush_hu_tera)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ㅤ+𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+𝙸𝚂𝚃𝙺𝙷𝙰𝚁+𝙼𝚄𝚂𝙸𝙲+𝚁𝙴𝙿𝙾+;ㅤ+𝚃𝙷𝙸𝚂+𝙸𝚂+𝙰+𝙰𝙳𝚅𝙰𝙽𝙲𝙴+𝙼𝚄𝚂𝙸𝙲+𝙱𝙾𝚃;𝙿𝙾𝚆𝙴𝚁𝙴𝙳+𝙱𝚈+☞+𝗧𝗛𝗘+𝗧𝗘𝗔𝗠+𝗜𝗦𝗧𝗞𝗛𝗔𝗥)](https://github.com/SHIVANSH475/SHIVANSH-MUSIC)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=ㅤ+𝚆𝙴𝙻𝙲𝙾𝙼𝙴+𝚃𝙾+ZEFRON+𝙼𝚄𝚂𝙸𝙲+𝚁𝙴𝙿𝙾+;ㅤ+𝚃𝙷𝙸𝚂+𝙸𝚂+𝙰+𝙰𝙳𝚅𝙰𝙽𝙲𝙴+𝙼𝚄𝚂𝙸𝙲+𝙱𝙾𝚃;𝙿𝙾𝚆𝙴𝚁𝙴𝙳+𝙱𝚈+☞+ZEFRON)](https://github.com/Suraj08832/surajmusic)
 
 
 
@@ -105,8 +105,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🖇 Generating Pyrogram String Session
 
 <p>
-<a href="https://t.me/MAHI_X_MUSIC_BOT"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
-<a href="https://t.me/chamber_of_heart1"><img src="https://img.shields.io/badge/PURVI%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+<a href="https://t.me/destinyy_MUSIC_BOT"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+<a href="https://t.me/chamber_of_heart1"><img src="https://img.shields.io/badge/CRUSH%20MUSIC%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
 
 
 <h3 align="center">
@@ -116,7 +116,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </h3>
 
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/ANURAGSONG/ANURAG_music"> <img src="https://graph.org/file/7758e15f135e166b8637d.jpg" width="520" height="198.45"/></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Suraj08832/surajmusic"> <img src="https://graph.org/file/7758e15f135e166b8637d.jpg" width="520" height="198.45"/></a></p>
 
 
 
@@ -130,7 +130,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/ANURAGSONG/ANURAG_music/tree/master)
+- Get your [Necessary Variables](https://github.com/Suraj08832/surajmusic/tree/master)
 - Upgrade and Update by :
 `sudo apt-get update && sudo apt-get upgrade -y`
 - Install Ffmpeg by :
@@ -142,7 +142,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Install Node js by :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Clone the repository by :
-`git clone https://github.com/TEAM-ISTKHAR/MUSARRAT && cd MUSARRAT`
+`git clone  && cd MUSARRAT`
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
