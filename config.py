@@ -6,18 +6,16 @@ from pyrogram import filters
 
 load_dotenv()
 
-# --- HARDCODED CONFIG VALUES ---
-API_ID = 28053244
-API_HASH = "a7d745be7c8ba465750bfad1e7abc075"
-BOT_TOKEN = "8021590989:AAGIu2WS30kjBpXIvWqXUCkrCt3E3yIG9Ak"
-MONGO_DB_URI = "mongodb://localhost:27017/destinymusic"
-LOGGER_ID = -1002638427943
-OWNER_ID = 8015044785
-STRING1 = "BQGsDvwAMQDTveLse1-q03wcBgeh1LglX21pIEO-C_-TwE_UCfBt4qsmrBqoO5t5N-bKG6kddrv5c61LHXCB6Wha4ci5R1V3IIeANtwrUCJ87esez_FyugrbMEwv1p2nbEoJrFsMW6n6AtVvX1gGuMar0VT_ajnhj_PzWKZC_RfE1_Hhh3s0czyLWrYtAtgOZQBHURW5GpxCEOXLjoc_9jF7Yt48XYhDqcpdWZg7p2WHKMYQriLDSvSVJeKL97kkzD6aBLAEvjNqh6zvUFZXV4fsFpvenze-njzJQBtFYBRB-HXX5zEU7bPJacFfUeRdd4O8ma7sAwtEO7F-UzS9Im4ZbqUj8wAAAAHdu-CxAA"
-STRING2 = "BQF-ZJIASbBrsfbXzsMEEC55i41nyJvns68ouL_lVZby_cZwhIa9heE5HZdvGePA4j7x4J8AVcoj76FnywPaJnehPa7cVCDCyHJE5axDNkH7XVAMja1FNA2OCH-z1tyfemSNWCR4T53B479H0u-QbE6vDKoSzrEvRonv7XkAL5ZL59-vTAfSqc30VpfXs9JLEhNIrSPJepVZFXiOdfNiqi3NYMcbBZsKxqQhd_yGLEHwCeMCqjhA95BNADUL3b-X383zZTVkLVsD95WGiGqni7g7BRXj1u82-C532G3zGHyx4b7u_XkXx9vgMRnH23rfDsZYxhjt9CrS60BDR_dElllvOpW9xQAAAAHNQBbEAA"
-# --- END HARDCODED CONFIG VALUES ---
+# Get this value from my.telegram.org/apps
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
+BOT_TOKEN = getenv("BOT_TOKEN")
+
+# Get your Genius API token from https://genius.com/api-clients
+GENIUS_API_TOKEN = getenv("GENIUS_API_TOKEN", None)
+
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","ANURAGMOD")
 # --------------------------------------------------------
@@ -28,14 +26,15 @@ BOT_NAME = getenv("BOT_NAME")
 
 
 # Get your mongo url from cloud.mongodb.com
-# --------------------------------------------------------
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-# --------------------------------------------------------
+LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-# --------------------------------------------------------
+OWNER_ID = int(getenv("OWNER_ID", 7745362209))
 
 
 # make your bots privacy from telegra.ph and put your url here 
@@ -79,6 +78,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
+STRING1 = getenv("STRING_SESSION", None)
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)

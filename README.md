@@ -43,7 +43,7 @@
 <a href="https://t.me/ANURAG_ABOUT"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 ANURAG%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <p align="center">
-<a href="https://t.me/ANURAGMOD"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 ANURAG%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/crush_hu_tera"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 ANURAG%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
@@ -77,7 +77,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 - For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
 ━━━━━━━━━━━━━━━━━━━━
 ### Contact :
-<a href="https://t.me/ANURAGMOD"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
+<a href="https://t.me/crush_hu_tera"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 」─
