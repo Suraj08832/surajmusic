@@ -1,5 +1,3 @@
-import os
-import aiohttp
 import random
 import re
 import string
@@ -19,61 +17,13 @@ genius.verbose = False
 
 async def get_lyrics(song_name: str) -> str:
     """Get lyrics from Genius API"""
-    if not GENIUS_API_TOKEN:
-        return "Lyrics functionality is not configured. Please set GENIUS_API_TOKEN in config.py"
-    
-    async with aiohttp.ClientSession() as session:
-        # Search for the song
-        search_url = f"https://api.genius.com/search?q={song_name}"
-        headers = {"Authorization": f"Bearer {GENIUS_API_TOKEN}"}
-        
-        async with session.get(search_url, headers=headers) as response:
-            if response.status != 200:
-                return "Failed to fetch lyrics. Please try again later."
-            
-            data = await response.json()
-            if not data.get("response", {}).get("hits"):
-                return "No lyrics found for this song."
-            
-            # Get the first result
-            song_id = data["response"]["hits"][0]["result"]["id"]
-            
-            # Get the lyrics
-            lyrics_url = f"https://api.genius.com/songs/{song_id}"
-            async with session.get(lyrics_url, headers=headers) as song_response:
-                if song_response.status != 200:
-                    return "Failed to fetch lyrics. Please try again later."
-                
-                song_data = await song_response.json()
-                song_path = song_data["response"]["song"]["path"]
-                
-                # Get the actual lyrics from the song page
-                song_url = f"https://genius.com{song_path}"
-                async with session.get(song_url) as page_response:
-                    if page_response.status != 200:
-                        return "Failed to fetch lyrics. Please try again later."
-                    
-                    page_text = await page_response.text()
-                    # Extract lyrics from the page
-                    # This is a simple implementation - you might want to use a proper HTML parser
-                    lyrics_start = page_text.find('"Lyrics__Container-sc-')
-                    if lyrics_start == -1:
-                        return "Could not extract lyrics from the page."
-                    
-                    lyrics_end = page_text.find('</div>', lyrics_start)
-                    if lyrics_end == -1:
-                        return "Could not extract lyrics from the page."
-                    
-                    lyrics = page_text[lyrics_start:lyrics_end]
-                    # Clean up the lyrics
-                    lyrics = lyrics.replace('<br/>', '\n')
-                    lyrics = lyrics.replace('</div>', '')
-                    lyrics = lyrics.replace('<div>', '')
-                    lyrics = lyrics.replace('&amp;', '&')
-                    lyrics = lyrics.replace('&quot;', '"')
-                    lyrics = lyrics.replace('&#x27;', "'")
-                    
-                    return lyrics
+    try:
+        song = genius.search_song(song_name, get_full_info=False)
+        if song is None:
+            return "No lyrics found for this song."
+        return song.lyrics
+    except Exception as e:
+        return f"Error fetching lyrics: {str(e)}"
 
 @app.on_message(filters.command(["lyrics", "lyric"]))
 async def lyrics_command(client, message: Message):
