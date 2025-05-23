@@ -121,10 +121,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 
 <p align="center">
-<a href="https://t.me/ANURAG_ABOUT"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 ANURAG%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/CRUSH_HU_TERA"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 ZEFRON%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <p align="center">
-<a href="https://t.me/crush_hu_tera"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 ANURAG%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/crush_hu_tera"><img src="https://img.shields.io/badge/-☆𝐃𝐌 𝐓𝐎 ZEFRON%20☆-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
